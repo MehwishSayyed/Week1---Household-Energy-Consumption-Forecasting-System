@@ -1,4 +1,4 @@
-🏠 Cleaned UCI Household Energy Consumption Dataset
+# 🏠 Cleaned UCI Household Energy Consumption Dataset
 
 This repository contains a cleaned and preprocessed version of the UCI Individual Household Electric Power Consumption Dataset.
 The data records the electric power usage of a single household between December 2006 and November 2010, with measurements taken every minute.
@@ -46,7 +46,7 @@ README.md → This documentation file
 ⚙️ Example Usage
 import pandas as pd
 
-# Load the cleaned dataset
+# Load cleaned dataset
 df = pd.read_csv('household_energy_cleaned.csv', parse_dates=['DateTime'], index_col='DateTime')
 
 # Display info
